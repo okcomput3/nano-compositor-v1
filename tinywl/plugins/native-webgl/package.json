@@ -1,0 +1,10 @@
+{
+  "name": "native-webgl",
+  "version": "1.0.0",
+  "description": "Native WebGL bindings for compositor",
+  "main": "index.js",
+  "dependencies": {
+    "node-addon-api": "^7.1.0"
+  },
+  "gypfile": true
+}

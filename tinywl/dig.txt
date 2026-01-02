@@ -1,0 +1,185 @@
+II 2026-01-01 20:35:49.531 - [src/main.cpp:409] Starting wayfire: 0.11.0-bc4ea225 (Dec 20 2025) branch HEAD wlroots-0.19.0
+II 2026-01-01 20:35:49.531 - [backend/backend.c:342] Loading user-specified backends due to WLR_BACKENDS: headless
+II 2026-01-01 20:35:49.531 - [backend/headless/backend.c:60] Creating headless backend
+WW 2026-01-01 20:35:49.531 - [src/main.cpp:436] Failed to open DRM render device, consider specifying WLR_RENDER_DRM_DEVICE.Trying SW rendering instead.
+II 2026-01-01 20:35:49.531 - [util/env.c:25] Loading WLR_RENDERER option: gles2
+II 2026-01-01 20:35:49.556 - [render/egl.c:205] Supported EGL client extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_explicit_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_EXT_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+II 2026-01-01 20:35:49.566 - [render/egl.c:369] Using EGL 1.5
+II 2026-01-01 20:35:49.566 - [render/egl.c:370] Supported EGL display extensions: EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_EXT_config_select_group EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_EXT_protected_content EGL_EXT_query_reset_notification_strategy EGL_EXT_surface_compression EGL_IMG_context_priority EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_context_flush_control EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image_base EGL_KHR_no_config_context EGL_KHR_partial_update EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_gl_interop EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_MESA_x11_native_visual_id EGL_WL_bind_wayland_display 
+II 2026-01-01 20:35:49.566 - [render/egl.c:372] Supported EGL device extensions: EGL_EXT_device_drm EGL_EXT_device_drm_render_node
+II 2026-01-01 20:35:49.566 - [render/egl.c:374] EGL vendor: Mesa Project
+II 2026-01-01 20:35:49.571 - [render/gles2/renderer.c:538] Creating GLES2 renderer
+II 2026-01-01 20:35:49.571 - [render/gles2/renderer.c:539] Using OpenGL ES 3.2 Mesa 25.0.7-0ubuntu0.24.04.2
+II 2026-01-01 20:35:49.571 - [render/gles2/renderer.c:540] GL vendor: Intel
+II 2026-01-01 20:35:49.571 - [render/gles2/renderer.c:541] GL renderer: Mesa Intel(R) Iris(R) Xe Graphics (TGL GT2)
+II 2026-01-01 20:35:49.571 - [render/gles2/renderer.c:542] Supported GLES2 extensions: GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_texture_filter_anisotropic GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_format_BGRA8888 GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_stencil8 GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_EXT_draw_instanced GL_EXT_texture_sRGB_decode GL_OES_EGL_image GL_OES_depth_texture GL_AMD_performance_monitor GL_OES_packed_depth_stencil GL_EXT_texture_type_2_10_10_10_REV GL_NV_conditional_render GL_OES_get_program_binary GL_APPLE_texture_max_level GL_EXT_discard_framebuffer GL_EXT_read_format_bgra GL_EXT_texture_storage GL_NV_pack_subimage GL_NV_texture_barrier GL_EXT_frag_depth GL_NV_fbo_color_attachments GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_array_object GL_OES_viewport_array GL_ANGLE_pack_reverse_row_order GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_EXT_occlusion_query_boolean GL_EXT_robustness GL_EXT_texture_rg GL_EXT_unpack_subimage GL_NV_draw_buffers GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_APPLE_sync GL_EXT_draw_buffers GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_shadow_samplers GL_KHR_debug GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_NV_generate_mipmap_sRGB GL_NV_pixel_buffer_object GL_OES_depth_texture_cube_map GL_OES_required_internalformat GL_OES_surfaceless_context GL_EXT_color_buffer_float GL_EXT_debug_label GL_EXT_sRGB_write_control GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_group_vote GL_EXT_shader_implicit_conversions GL_EXT_shader_integer_mix GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_ANDROID_extension_pack_es31a GL_EXT_base_instance GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_copy_image GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_gpu_shader5 GL_EXT_multi_draw_indirect GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box GL_EXT_render_snorm GL_EXT_shader_io_blocks GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_cube_map_array GL_EXT_texture_norm16 GL_EXT_texture_view GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_robust_buffer_access_behavior GL_NV_image_formats GL_NV_shader_noperspective_interpolation GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_gpu_shader5 GL_OES_primitive_bounding_box GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_tessellation_point_size GL_OES_tessellation_shader GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_texture_view GL_EXT_blend_func_extended GL_EXT_buffer_storage GL_EXT_float_blend GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_EXT_shader_samples_identical GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_NV_fragment_shader_interlock GL_OES_EGL_image_external_essl3 GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_shader_image_atomic GL_EXT_clear_texture GL_EXT_clip_cull_distance GL_EXT_conservative_depth GL_EXT_disjoint_timer_query GL_EXT_texture_compression_s3tc_srgb GL_MESA_shader_integer_functions GL_EXT_clip_control GL_EXT_color_buffer_half_float GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_texture_compression_bptc GL_EXT_texture_mirror_clamp_to_edge GL_KHR_parallel_shader_compile GL_NV_alpha_to_coverage_dither_control GL_EXT_EGL_image_storage GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_texture_shadow_lod GL_INTEL_blackh
+II 2026-01-01 20:35:49.597 - [src/default-config-backend.cpp:70] Using config file: /home/light/.config/wayfire.ini
+II 2026-01-01 20:35:49.597 - [subprojects/wf-config/src/file.cpp:579] Reading XML configuration options from directory /opt/wayfire/share/wayfire/metadata
+II 2026-01-01 20:35:49.597 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/shader-overlay.xml
+II 2026-01-01 20:35:49.598 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/wsets.xml
+II 2026-01-01 20:35:49.598 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/glow-decoration.xml
+II 2026-01-01 20:35:49.598 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/simple-text.xml
+II 2026-01-01 20:35:49.598 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/ipc.xml
+II 2026-01-01 20:35:49.598 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/phodius-extras.xml
+II 2026-01-01 20:35:49.598 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/pin-view.xml
+II 2026-01-01 20:35:49.598 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/overview.xml
+II 2026-01-01 20:35:49.598 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/ghost.xml
+II 2026-01-01 20:35:49.598 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/pixdecor.xml
+II 2026-01-01 20:35:49.599 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/autostart.xml
+II 2026-01-01 20:35:49.599 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/vertical_kube.xml
+II 2026-01-01 20:35:49.599 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/animated-tile.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/showtouch.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/foreign-toplevel.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/scale-title-filter.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/window-rules.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/hide-cursor.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/simple-tile.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/ipc-rules.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/shortcuts-inhibit.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/crt-effect.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/idle.xml
+II 2026-01-01 20:35:49.600 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/scale.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/xdg-activation.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/extra-gestures.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/focus-steal-prevent.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/group.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/vulkan-animation-example.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/fisheye.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/water.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/switcher.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/window-zoom.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/force-fullscreen.xml
+II 2026-01-01 20:35:49.601 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/input.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/vulkan-minimal-example.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/place.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/alpha.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/animate.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/input-device.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/session-lock.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/input-method-v1.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/resist-edge.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/wrot.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/wobbly.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/annotate.xml
+II 2026-01-01 20:35:49.602 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/decoration.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/autorotate-iio.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/preserve-output.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/wayfire-shell.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/view-shot.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/workarounds.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/keycolor.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/zoom.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/output.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/core.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/crosshair.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/crt-effect-vk.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/bench.xml
+II 2026-01-01 20:35:49.603 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/vswipe.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/resize.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/workspace-names.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/shader-dock.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/move.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/dodge.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/follow-focus.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/vswitch.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/expo.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/invert.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/join-views.xml
+II 2026-01-01 20:35:49.604 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/hyprland-anims.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/vertical_expo.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/filters.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/obs.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/gtk-shell.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/cube.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/oswitch.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/futuristic-panel.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/wm-actions.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/fast-switcher.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/mag.xml
+II 2026-01-01 20:35:49.605 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/command.xml
+II 2026-01-01 20:35:49.606 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/focus-change.xml
+II 2026-01-01 20:35:49.606 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/grid.xml
+II 2026-01-01 20:35:49.606 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/showrepaint.xml
+II 2026-01-01 20:35:49.606 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/blur.xml
+II 2026-01-01 20:35:49.606 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/minimal-transformer.xml
+II 2026-01-01 20:35:49.606 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/extra-animations.xml
+II 2026-01-01 20:35:49.606 - [subprojects/wf-config/src/file.cpp:529] Reading XML configuration options from file /opt/wayfire/share/wayfire/metadata/remoteview.xml
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_launcher is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_light_down is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_light_up is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_lock is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_logout is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_mute is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_screenshot is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_screenshot_interactive is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_terminal is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_volume_down is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/always_binding_volume_up is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/binding_light_down is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/binding_light_up is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/binding_volume_down is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/binding_volume_up is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_launcher is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_light_down is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_light_up is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_lock is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_logout is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_mute is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_screenshot is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_screenshot_interactive is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_terminal is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_volume_down is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/release_binding_volume_up is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/repeatable_binding_launcher is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/repeatable_binding_lock is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/repeatable_binding_logout is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/repeatable_binding_mute is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/repeatable_binding_screenshot is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/repeatable_binding_screenshot_interactive is neither specified nor has a default value
+EE 2026-01-01 20:35:49.608 - [subprojects/wf-config/src/compound-option.cpp:86] The option command/repeatable_binding_terminal is neither specified nor has a default value
+II 2026-01-01 20:35:49.609 - [backend/headless/backend.c:60] Creating headless backend
+II 2026-01-01 20:35:49.609 - [backend/headless/backend.c:17] Starting headless backend
+II 2026-01-01 20:35:49.609 - [src/core/core.cpp:165] Not using wlr_drm_lease_device_v1; VR will not be available!
+II 2026-01-01 20:35:49.611 - [wayland] unable to lock lockfile /run/user/1000/wayland-1.lock, maybe another compositor is running
+II 2026-01-01 20:35:49.611 - [src/main.cpp:500] Using socket name wayland-2
+II 2026-01-01 20:35:49.611 - [backend/headless/backend.c:17] Starting headless backend
+II 2026-01-01 20:35:49.611 - [src/core/output-layout.cpp:1262] new output: HEADLESS-1 ("(null) (null) (null)")
+II 2026-01-01 20:35:49.611 - [src/core/output-layout.cpp:1277] Adding with 0x61e1e6622520
+II 2026-01-01 20:35:49.611 - [src/core/output-layout.cpp:701] Couldn't find matching mode 1280x720@0 for output HEADLESS-1. Trying to use custom mode(might not work)
+EE 2026-01-01 20:35:49.613 - [src/core/plugin-loader.cpp:213] Failed to load plugin "gnome-shell". Make sure it is installed in /opt/wayfire/lib/x86_64-linux-gnu/wayfire or in $WAYFIRE_PLUGIN_PATH.
+EE 2026-01-01 20:35:49.614 - [src/core/plugin-loader.cpp:213] Failed to load plugin "export-dmabuf-v1". Make sure it is installed in /opt/wayfire/lib/x86_64-linux-gnu/wayfire or in $WAYFIRE_PLUGIN_PATH.
+II 2026-01-01 20:35:49.732 - [src/crt-effect.cpp:266] CRT: Searching for shaders in: /home/light/Downloads/wayfire-plugins-main/plugins/crt-effect/shaders
+II 2026-01-01 20:35:49.736 - [src/crt-effect.cpp:310] CRT: Loaded shader: p3-analog-evolver
+II 2026-01-01 20:35:49.739 - [src/crt-effect.cpp:310] CRT: Loaded shader: physio-perceptual-pixel
+II 2026-01-01 20:35:49.741 - [src/crt-effect.cpp:310] CRT: Loaded shader: Trinitron_AA_Perfect_Gaming
+II 2026-01-01 20:35:49.743 - [src/crt-effect.cpp:310] CRT: Loaded shader: trinity-flat
+II 2026-01-01 20:35:49.745 - [src/crt-effect.cpp:310] CRT: Loaded shader: cinema
+II 2026-01-01 20:35:49.746 - [src/crt-effect.cpp:310] CRT: Loaded shader: perfect
+II 2026-01-01 20:35:49.747 - [src/crt-effect.cpp:310] CRT: Loaded shader: v-roll
+II 2026-01-01 20:35:49.750 - [src/crt-effect.cpp:310] CRT: Loaded shader: royale
+II 2026-01-01 20:35:49.751 - [src/crt-effect.cpp:310] CRT: Loaded shader: discrete
+II 2026-01-01 20:35:49.753 - [src/crt-effect.cpp:310] CRT: Loaded shader: cells-atmospheric
+II 2026-01-01 20:35:49.755 - [src/crt-effect.cpp:310] CRT: Loaded shader: retro
+II 2026-01-01 20:35:49.757 - [src/crt-effect.cpp:310] CRT: Loaded shader: bw-tv
+II 2026-01-01 20:35:49.832 - [glow-decoration.cpp:449] Glow decoration plugin initialized
+II 2026-01-01 20:35:50.168 - [src/phodius-extras/plugin.cpp:42] phodius-extras: init() called
+II 2026-01-01 20:35:50.168 - [src/phodius-extras/plugin.cpp:50] phodius-extras: registering effects
+II 2026-01-01 20:35:50.168 - [src/phodius-extras/plugin.cpp:62] phodius-extras: effects registered successfully
+II 2026-01-01 20:35:50.172 - [backend/headless/backend.c:60] Creating headless backend
+II 2026-01-01 20:35:50.172 - [src/core/seat/input-manager.cpp:47] handle new input: stipc_pointer
+II 2026-01-01 20:35:50.172 - [src/core/seat/input-manager.cpp:47] handle new input: stipc_keyboard
+II 2026-01-01 20:35:50.177 - [src/core/seat/input-manager.cpp:47] handle new input: stipc_touch
+II 2026-01-01 20:35:50.177 - [src/core/seat/input-manager.cpp:47] handle new input: stipc_tablet_tool
+II 2026-01-01 20:35:50.177 - [src/core/seat/input-manager.cpp:47] handle new input: stipc_tablet_pad
+II 2026-01-01 20:35:50.207 - [xwayland/server.c:107] Starting Xwayland on :1
+II 2026-01-01 20:35:53.038 - [src/main.cpp:516] Got SIGINT, shutting down
+II 2026-01-01 20:35:53.038 - [src/core/core.cpp:343] Unloading plugins...
+II 2026-01-01 20:35:53.049 - [glow-decoration.cpp:467] Glow decoration plugin finalized
+II 2026-01-01 20:35:53.055 - [src/core/seat/input-manager.cpp:80] remove input: stipc_pointer
+II 2026-01-01 20:35:53.055 - [src/core/seat/input-manager.cpp:80] remove input: stipc_keyboard
+II 2026-01-01 20:35:53.055 - [src/core/seat/input-manager.cpp:80] remove input: stipc_touch
+II 2026-01-01 20:35:53.055 - [src/core/seat/input-manager.cpp:80] remove input: stipc_tablet_tool
+II 2026-01-01 20:35:53.055 - [src/core/seat/input-manager.cpp:80] remove input: stipc_tablet_pad
+II 2026-01-01 20:35:53.056 - [src/core/core.cpp:350] Stopping clients...
+II 2026-01-01 20:35:53.058 - [src/core/core.cpp:352] Freeing resources...
+II 2026-01-01 20:35:53.059 - [src/main.cpp:523] Shutdown successful!
